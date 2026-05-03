@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mel OMARION | Cinematographer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#home" class="logo">Mel OMARION</a>
+      <button class="nav-toggle" aria-label="Open navigation menu" aria-controls="primary-nav" aria-expanded="false">Menu</button>
+      <ul class="nav-links" id="primary-nav">
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section id="home" class="hero">
+      <div class="overlay"></div>
+      <div class="hero-content container reveal">
+        <p class="eyebrow">Cinematographer</p>
+        <h1>Painting emotion through light, shadow, and cinematic motion.</h1>
+        <p class="hero-text">
+          Mel OMARION crafts poetic visuals for films, branded stories, and music pieces where every frame carries emotional weight.
+        </p>
+        <a href="#portfolio" class="btn">Watch Reel</a>
+      </div>
+    </section>
+
+    <section id="about" class="section about container reveal">
+      <div class="section-title-wrap">
+        <p class="eyebrow">About</p>
+        <h2>Artistic storytelling through cinematic vision.</h2>
+      </div>
+      <div class="about-grid">
+        <p>
+          Mel OMARION is a cinematographer devoted to artistic storytelling, atmospheric imagery, and expressive camera language. Each project is approached as a visual poem where light, movement, and composition reveal emotion beyond dialogue.
+        </p>
+        <p>
+          From concept and shot design to final on-set execution, every creative choice is intentional and mood-driven. The goal is always the same: transform ideas into cinematic visuals that feel intimate, bold, and unforgettable.
+        </p>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section portfolio container reveal">
+      <div class="section-title-wrap">
+        <p class="eyebrow">Portfolio</p>
+        <h2>Selected Cinematic Works</h2>
+      </div>
+      <div class="gallery">
+        <article class="card">
+          <div class="video-wrap">
+            <iframe src="https://www.youtube.com/embed/ScMzIvxBSi4" title="Nocturne in Motion" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="media-hover">
+              <span>Play Project</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3>Nocturne in Motion</h3>
+            <p>Branded Short</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="video-wrap">
+            <iframe src="https://www.youtube.com/embed/jNQXAC9IVRw" title="Echoes of Neon" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="media-hover">
+              <span>Play Project</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3>Echoes of Neon</h3>
+            <p>Music Film</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="video-wrap">
+            <iframe src="https://www.youtube.com/embed/kXYiU_JCYtU" title="Before First Light" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="media-hover">
+              <span>Play Project</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3>Before First Light</h3>
+            <p>Narrative Short</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="video-wrap">
+            <video controls preload="metadata" poster="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1200&q=80">
+              <source src="media/mel-omarion-reel.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <div class="media-hover">
+              <span>Play Reel</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3>Mel OMARION Reel</h3>
+            <p>Local Video File</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact container reveal">
+      <div class="section-title-wrap">
+        <p class="eyebrow">Contact</p>
+        <h2>Let's shape a story in cinematic light.</h2>
+      </div>
+      <form class="contact-form" novalidate>
+        <label for="name">Name</label>
+        <input id="name" type="text" placeholder="Your name" required>
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="you@example.com" required>
+        <label for="message">Project Details</label>
+        <textarea id="message" rows="5" placeholder="Tell Mel about your story and visual direction..." required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Mel OMARION. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
